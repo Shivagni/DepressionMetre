@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+    android:id="@+id/q"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    
+    >
+</TextView>
+<RadioGroup
+    android:id="@+id/radiogroup1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    > 
+<RadioButton
+     android:id="@+id/radio0"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="none of the time"
+    />
+<RadioButton
+     android:id="@+id/radio1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="some of the time"
+    />
+<RadioButton
+     android:id="@+id/radio2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="a good part of the time"
+    />
+<RadioButton
+     android:id="@+id/radio3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Most of the time"
+    />
+</RadioGroup>
+<Button
+    
+     android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="myClickHandler"
+    android:text="NEXT"
+    />
+    
+</LinearLayout>
+
